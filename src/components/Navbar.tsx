@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import { useState } from 'react';
+import logo from '../assets/shopiq-lettermark-1200.png';
 
 export default function Navbar() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -9,10 +10,12 @@ export default function Navbar() {
       <div className="container-custom">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
-          <Link to="/" className="flex items-center space-x-2">
-            <div className="w-8 h-8 bg-gradient-to-br from-primary-500 to-primary-700 rounded-lg flex items-center justify-center">
-              <span className="text-white font-bold text-xl">S</span>
-            </div>
+          <Link to="/" className="flex items-center space-x-3">
+            <img
+              src={logo}
+              alt="ShopIQ logo"
+              className="w-10 h-10 object-contain"
+            />
             <span className="text-xl font-bold text-gray-900">ShopIQ</span>
           </Link>
 
