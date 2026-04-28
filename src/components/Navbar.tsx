@@ -23,7 +23,7 @@ export default function Navbar() {
             <Link to="/docs" className="text-gray-600 hover:text-primary-600 transition">Docs</Link>
             <Link to="/support" className="text-gray-600 hover:text-primary-600 transition">Support</Link>
             <a
-              href="https://shopiq-production.up.railway.app/auth/shopify/install"
+              href="https://shopiq-iota.vercel.app"
               className="btn-primary"
             >
               Install App
@@ -48,7 +48,7 @@ export default function Navbar() {
             <Link to="/#pricing" className="block py-2 text-gray-600 hover:text-primary-600">Pricing</Link>
             <Link to="/docs" className="block py-2 text-gray-600 hover:text-primary-600">Docs</Link>
             <Link to="/support" className="block py-2 text-gray-600 hover:text-primary-600">Support</Link>
-            <a href="https://shopiq-production.up.railway.app/auth/shopify/install" className="block btn-primary text-center mt-4">
+            <a href="https://shopiq-iota.vercel.app" className="block btn-primary text-center mt-4">
               Install App
             </a>
           </div>
